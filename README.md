@@ -28,6 +28,13 @@ Program versions used:
 Python 3.10.11
 SWI-Prolog 9.0.4
 
+Python Packages used:
+json
+csv
+numpy 1.24.3
+math
+xlsxwriter 3.1.6
+
 First run predicate script. This will generate a list of prolog facts that represent the CARLA data. Use the script corresponding to the scenario you want to evaluate.
 ```shell
 python predicates_lights.py
